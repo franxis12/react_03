@@ -1,12 +1,68 @@
-# React + Vite
+# Contact Form - React Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of a progressive series of React mini-projects to reinforce the fundamentals of React, form handling, and Bootstrap integration.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple contact form built using **React** and styled with **Bootstrap**. This app captures the user's name, email, and message, and displays the information after submission.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Controlled inputs using `useState`
+- Centralized state management for multiple inputs
+- Input validation with `minLength`
+- Bootstrap styles for form layout and aesthetics
+- Responsive and mobile-friendly design
+- Conditional rendering of submitted data
+
+## Technologies Used
+
+- React
+- Bootstrap 5
+- Vite
+- JSX
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/franxis12/react_03
+   cd react_03
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+
+   ```bash
+   npm run build
+   ```
+
+5. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+## Preview
+
+![Preview](./preview.png)
+
+## Author
+
+Francis Martinez  
+[GitHub Profile](https://github.com/franxis12)
+
+---
+
+Feel free to update this file as your project evolves!
